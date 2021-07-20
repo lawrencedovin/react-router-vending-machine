@@ -1,0 +1,45 @@
+.VendingMachine {
+    height: calc(100vh - 22px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.VendingMachine__container, 
+.VendingMachine__container a, 
+.VendingMachine__container a:active {
+    margin: 5rem 2.5rem 0;
+    font-size: 1.25em;
+    opacity: 1;
+}
+
+.VendingMachine__container {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 25rem;
+    padding: 2em;
+    position: relative;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.VendingMachine__container a,
+.VendingMachine__container a:active {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.VendingMachine__container a:hover{
+    text-decoration: underline;
+}
+
+.VendingMachine__container--left {
+    float: left;
+}
+
+.VendingMachine__container--right {
+    float: right;
+}

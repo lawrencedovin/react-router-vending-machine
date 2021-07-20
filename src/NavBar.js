@@ -13,6 +13,10 @@ const NavBar = () => {
                 Soda
             </NavLink>
 
+            <NavLink exact to='/chips'>
+                Chips
+            </NavLink>
+
             <NavLink exact to='/sardines'>
                 Sardines
             </NavLink>

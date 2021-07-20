@@ -1,0 +1,13 @@
+.NavBar {
+    background: black;
+}
+
+.NavBar a {
+    color: white;
+    opacity: .5;
+    margin: 20px;
+}
+
+.NavBar a.active {
+    opacity: 1;
+}
