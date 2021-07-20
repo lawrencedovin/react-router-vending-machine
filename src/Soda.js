@@ -1,12 +1,12 @@
 import React from 'react';
 import NavGoBack from './NavGoBack';
+import './Soda.css';
 
 const Soda = () => {
     return (
-        <>
-            <h1>Soda</h1>
-            <NavGoBack/>
-        </>
+        <div className="Soda" style={{ backgroundImage:"url(https://media.giphy.com/media/tVk4w6EZ7eGNq/giphy.gif)"}}>
+            <NavGoBack message='SODAAAAAAA' />
+        </div>
 
     );
 };

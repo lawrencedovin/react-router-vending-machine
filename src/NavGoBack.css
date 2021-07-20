@@ -1,0 +1,19 @@
+.NavGoBack {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .NavGoBack a, .NavGoBack a:active {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .NavGoBack a:hover {
+      text-decoration: underline;
+  }

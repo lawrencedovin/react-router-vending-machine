@@ -1,11 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './NavGoBack.css';
 
-const NavGoBack = () => {
+const NavGoBack = ({message}) => {
     return(
-        <NavLink exact to='/'>
-            GO BACK!
-        </NavLink>
+        <div className='NavGoBack'>
+            <h1>{message}</h1>
+            <NavLink exact to='/'>
+                GO BACK!
+            </NavLink>
+        </div>
     );
 };
 
