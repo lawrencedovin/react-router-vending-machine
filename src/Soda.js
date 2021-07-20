@@ -4,7 +4,7 @@ import './Soda.css';
 
 const Soda = () => {
     return (
-        <div className="Soda" style={{ backgroundImage:"url(https://media.giphy.com/media/tVk4w6EZ7eGNq/giphy.gif)"}}>
+        <div className="Soda" style={{ backgroundImage:"url(https://media.giphy.com/media/kOGXmjbBqyzdu/giphy.gif)"}}>
             <NavGoBack message='SODAAAAAAA' />
         </div>
 

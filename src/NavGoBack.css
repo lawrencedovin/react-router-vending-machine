@@ -6,14 +6,18 @@
     text-transform: uppercase;
     border-radius: 10px;
     text-align: center;
-  }
-  
-  .NavGoBack a, .NavGoBack a:active {
+}
+
+.NavGoBack, 
+.NavGoBack a, 
+.NavGoBack a:active {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-  }
+    font-size: 1.25em;
+    font-weight: bold;
+}
 
-  .NavGoBack a:hover {
+.NavGoBack a:hover {
       text-decoration: underline;
-  }
+}

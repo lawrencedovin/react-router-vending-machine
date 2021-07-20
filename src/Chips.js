@@ -4,7 +4,7 @@ import './Chips.css';
 
 const Chips = () => {
     return (
-        <div className="Chips" style={{ backgroundImage:"url(https://media.giphy.com/media/tVk4w6EZ7eGNq/giphy.gif)"}}>
+        <div className="Chips" style={{ backgroundImage:"url(https://media.giphy.com/media/EFUiKHUiZNQUo/giphy.gif)"}}>
             <NavGoBack message='CRUNCHYYY'/>
         </div>
     );
